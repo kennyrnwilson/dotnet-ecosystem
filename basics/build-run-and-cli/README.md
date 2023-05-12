@@ -32,7 +32,7 @@ follows.
 ``` json
 {
     "sdk": {
-        "version": "6.0.101"
+        "version": "8.0.100-preview.3.23178.7"
     }
  }
 
@@ -42,11 +42,11 @@ follows.
 The version of the runtime is specified by the **TargetFramework** element of the .csproj file.
 
 **.csproj**
-``` csproj
+```csproj
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>CommandLineApp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
